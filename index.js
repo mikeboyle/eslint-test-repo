@@ -1,4 +1,11 @@
-bar = 7;
+const bar = 7;
+bar = 7.1;
+bloop = 47;
+let baz = 12;
+
+let doBloop = (params) => {
+console.log(bloop)
+}
 
 function helloWorld(greeting) {
   let foo;
