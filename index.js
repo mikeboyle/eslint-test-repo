@@ -1,4 +1,5 @@
-bar = 7;
+const bar = 7;
+bar = 7.1;
 bloop = 47;
 let baz = 12;
 
