@@ -1,4 +1,9 @@
 bar = 7;
+bloop = 47;
+
+let doBloop = (params) => {
+console.log(bloop)
+}
 
 function helloWorld(greeting) {
   let foo;
