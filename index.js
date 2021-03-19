@@ -1,5 +1,6 @@
 bar = 7;
 bloop = 47;
+let baz = 12;
 
 let doBloop = (params) => {
 console.log(bloop)
