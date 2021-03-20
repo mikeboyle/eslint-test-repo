@@ -4,12 +4,13 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: 'eslint:recommended',
+  extends: ["plugin:prettier/recommended"],
   parserOptions: {
     ecmaVersion: 2015,
-    sourceType: 'module',
+    sourceType: "module",
   },
+  plugins: ["prettier"],
   rules: {
-    indent: ['error', 2],
+    "prettier/prettier": "error",
   },
 };
