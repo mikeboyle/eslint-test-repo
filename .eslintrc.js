@@ -11,5 +11,6 @@ module.exports = {
   },
   rules: {
     indent: ['error', 2],
+    "keyword-spacing": ['error'],
   },
 };
