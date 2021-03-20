@@ -1,4 +1,10 @@
+version: "2"
+checks:
+  file-lines:
+    enabled: false
 plugins: 
   eslint:
     enabled: true
     channel: "eslint-7"
+exclude_patterns:
+  - ".eslintrc.js"
