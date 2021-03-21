@@ -19,6 +19,9 @@ output = `Hello and ${greeting}`;
   return output;
 }
 
+baz = 12;
+const doBaz = () => console.log(baz, baz,)
+
 console.log(bar);
 console.log(helloWorld());
 console.log(helloWorld("YO yo yOO!!"));
